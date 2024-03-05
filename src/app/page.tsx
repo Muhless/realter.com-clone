@@ -1,3 +1,5 @@
+import Navbar from "./components/navigations/navbar"
+
 const hello = () => {
     return (
         <div>
