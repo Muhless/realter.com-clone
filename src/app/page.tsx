@@ -1,8 +1,9 @@
-import Navbar from "./components/navigations/navbar"
+import Banner from "@/components/banner"
 
 const hello = () => {
     return (
         <div>
+            <Banner/>
             <h1>Realter.com</h1>
         </div>
     )

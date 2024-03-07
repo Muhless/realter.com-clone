@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/navigations/navbar";
+import Navbar from "../components/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "realtor.com | Homes for Sale, Apartments & Houses for Rent",
+  title: "realtor.com® | Homes for Sale, Apartments & Houses for Rent",
   description: "Realter.com",
 };
 
