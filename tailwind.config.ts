@@ -14,6 +14,12 @@ const config: Config = {
       spacing: {
         "h-111": "28rem",
       },
+      textUnderlineOffset: {
+        10: "15px",
+      },
+      width: {
+        100: "36rem",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

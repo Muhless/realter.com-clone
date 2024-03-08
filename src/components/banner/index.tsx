@@ -14,18 +14,28 @@ const Banner = () => {
                 />
             </div>
             <div className="flex flex-col absolute justify-center items-center">
-                <div className=" text-white text-font-banner mt-9 font-black pb-0">
+                <div className=" text-white text-font-banner mt-9 font-black pb-0 leading-snug">
                     <h1>
                         The #1 site real estate <br />professionals trust*
                     </h1>
                 </div>
-                <div className='flex flex-row text-white font-sans font-semibold'>
-                    <p className='mx-5'>Buy</p>
-                    <p>Rent</p>
-                    <p>Sell</p>
-                    <p>Pre-approval</p>
-                    <p>Just sold</p>
-                    <p>Home value</p>
+                <div className='flex flex-row text-white font-sans font-medium mt-9 text-base'>
+                    <p className='mx-5 hover:underline decoration-4 underline-offset-10 cursor-pointer'>Buy</p>
+                    <p className='mx-5 hover:underline decoration-4 underline-offset-10 cursor-pointer'>Rent</p>
+                    <p className='mx-5 hover:underline decoration-4 underline-offset-10 cursor-pointer'>Sell</p>
+                    <p className='mx-5 hover:underline decoration-4 underline-offset-10 cursor-pointer'>Pre-approval</p>
+                    <p className='mx-5 hover:underline decoration-4 underline-offset-10 cursor-pointer'>Just sold</p>
+                    <p className='mx-5 hover:underline decoration-4 underline-offset-10 cursor-pointer'>Home value</p>
+                </div>
+                <div className='mt-9 flex flex-row text-center items-center'>
+                    <input
+                        type="text"
+                        placeholder='Address, School, City, Zip or Neighborhood'
+                        className='h-14 w-100 rounded-full text-lg px-6'>
+                    </input>
+                    <div>
+                        <button className='bg-black'>test</button>
+                    </div>
                 </div>
             </div>
         </div>
