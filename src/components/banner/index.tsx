@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import { RiSearchLine } from '@remixicon/react';
 
 const Banner = () => {
     return (
@@ -27,15 +28,21 @@ const Banner = () => {
                     <p className='mx-5 hover:underline decoration-4 underline-offset-10 cursor-pointer'>Just sold</p>
                     <p className='mx-5 hover:underline decoration-4 underline-offset-10 cursor-pointer'>Home value</p>
                 </div>
-                <div className='mt-9 flex flex-row text-center items-center'>
-                    <input
-                        type="text"
-                        placeholder='Address, School, City, Zip or Neighborhood'
-                        className='h-14 w-100 rounded-full text-lg px-6'>
-                    </input>
-                    <div>
-                        <button className='bg-black'>test</button>
-                    </div>
+                <div>
+                    <form action="" className='mt-9 flex flex-row text-center items-center justify-end'>
+                        <input
+                            type="text"
+                            placeholder='Address, School, City, Zip or Neighborhood'
+                            className='h-14 w-100 rounded-full text-lg px-6'>
+                        </input>
+                        <button className='h-12 bg-black p-3 rounded-full hover:bg-gray-500 delay-75 absolute mr-1'>
+                            <RiSearchLine
+                                size={25} // set custom `width` and `height`
+                                color="white" // set `fill` color
+                                className="my-icon" // add custom class name
+                            />
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
